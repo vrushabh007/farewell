@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://sagarkhatridk.github.io/farewell/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            overflow: hidden;
+        }
+
+        #lock {
+            display: none;
+        }
+
+        @media screen and (min-width: 320px) and (max-width: 1000px) and (orientation: landscape) {
+            #lock {
+                display: flex;
+            }
+
+            #container {
+                display: flex;
+            }
+        }
+
+        @media screen and (min-width: 320px) and (max-width: 1000px) and (orientation: portrait) {
+            #lock {
+                display: none;
+            }
+
+            #container {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div id="lock"></div>
+        <div id="container"></div> -->
+
+            <div class="image-slider" id="lock">
+                <div class="image-slider-track" id="container">
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?macbook">
+                    </div>
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?coding">
+                    </div>
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?nature">
+                    </div>
+
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?webdevelopment">
+                    </div>
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?data science">
+                    </div>
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?computer">
+                    </div>
+
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?gaming">
+                    </div>
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?ocean">
+                    </div>
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?coding,macbook">
+                    </div>
+
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?programming">
+                    </div>
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?python programming">
+                    </div>
+                    <div class="slide">
+                        <img src="https://source.unsplash.com/1400x300/?apple">
+                    </div>
+
+
+                </div>
+            </div>
+        
+</body>
+
+</html>
